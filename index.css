@@ -1,0 +1,169 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navbar */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* Seção de Banner */
+.banner {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 2.5rem;
+}
+
+.banner p {
+    font-size: 1.2rem;
+}
+
+/* Seção de Cardápio */
+#cardapio {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#cardapio h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.itens-cardapio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    text-align: center;
+    width: 30%;
+}
+
+.item img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.item h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.item p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Seção Sobre */
+#sobre {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#sobre h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#sobre p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Seção de Contato */
+#contato {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#contato h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
